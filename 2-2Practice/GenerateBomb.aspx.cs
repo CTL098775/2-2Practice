@@ -26,7 +26,7 @@ namespace _2_2Practice {
                 for (int i_Ct2 = 0; i_Ct2 < 10; i_Ct2++) {
                     Response.Write("<td>" + i_map[i_Ct, i_Ct2] + "</td>");
                 }
-                Response.Write("</tr>");
+                Response.Write("</tr>"+ "<br />");
                 Response.Write("<br />");
             }
             Response.Write("</table>");
