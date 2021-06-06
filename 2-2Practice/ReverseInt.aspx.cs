@@ -12,11 +12,11 @@ namespace _2_2Practice
         protected void Page_Load(object sender, EventArgs e)
         {
             int N = 1254;
-            string r_str = N.ToString();
-            var r = r_str.Reverse().ToArray();
-            r_str = new string(r);
-            int r_int = int.Parse(r_str);
-            Response.Write(r_int);
+            string n_str = N.ToString();
+            var r = n_str.Reverse().ToArray();
+            n_str = new string(r);
+            int n_int = int.Parse(n_str);
+            Response.Write(n_int);
         }
     }
 }
